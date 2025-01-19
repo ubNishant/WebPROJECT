@@ -1,0 +1,145 @@
+/* General Styles */
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header Section */
+h1 {
+    text-align: center;
+    color: gold;
+    margin: 20px 0;
+}
+
+/* Welcome Banner */
+div > p {
+    text-align: center;
+    font-weight: bold;
+    background-color: darkred;
+    color: white;
+    padding: 15px;
+    margin: 0 auto;
+    max-width: 80%;
+    border-radius: 5px;
+}
+
+/* Navigation Section */
+h3 {
+    color: gold;
+    margin-top: 20px;
+}
+
+a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Search Section */
+form {
+    margin: 20px 0;
+}
+
+form input[type="text"] {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid gold;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+form button {
+    padding: 10px;
+    background-color: gold;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+form button:hover {
+    background-color: darkorange;
+}
+
+/* Featured Section */
+button {
+    padding: 10px 15px;
+    background-color: gold;
+    border: none;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: darkorange;
+}
+
+/* Popular Movies Marquee */
+marquee {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0;
+    margin: 20px auto;
+    max-width: 90%;
+}
+
+marquee img {
+    width: 150px;
+    height: 220px;
+    margin: 0 15px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+marquee img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/* Horizontal Rule */
+hr {
+    border: 1px solid gold;
+    margin: 30px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: darkred;
+    color: white;
+}
+
+footer a {
+    color: gold;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer img {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+footer img:hover {
+    transform: scale(1.2);
+}
